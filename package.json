@@ -24,7 +24,8 @@
     "express": "3.4.4",
     "jade": "0.35.0",
     "lodash": "2.2.1",
-    "emoji-random": "0.1.0"
+    "emoji-random": "0.1.0",
+    "request": "~2.27.0"
   },
   "devDependencies": {
     "grunt": "0.4.1",

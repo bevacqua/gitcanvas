@@ -19,6 +19,14 @@ module.exports = function (grunt) {
                         '!web/public/js/vendor/**/*.js'
                     ]
                 }
+            },
+            server: {
+                files: {
+                    src: [
+                        'app.js',
+                        'web/server/**/*.js'
+                    ]
+                }
             }
         },
         watch: {

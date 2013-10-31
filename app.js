@@ -10,9 +10,9 @@ app.set('views', 'web/views');
 app.use(express.static(__dirname + '/web/public'));
 app.use(express.favicon(__dirname + '/web/public/favicon.ico'));
 app.use(app.router);
-app.get('/', function(req, res){
-    res.render('app.jade');
-});
+
+require('./web/server/routing.js')(app);
+
 app.listen(port);
 
 console.log('express listening on port %s', port);
