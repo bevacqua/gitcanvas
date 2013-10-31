@@ -8,7 +8,18 @@ module.exports = function (grunt) {
                 jshintrc: '.jshintrc'
             },
             lib: ['lib/**/*.js'],
-            support: ['Gruntfile.js']
+            support: ['Gruntfile.js'],
+            client: {
+                options: {
+                    jshintrc: 'web/public/js/.jshintrc'
+                },
+                files: {
+                    src: [
+                        'web/public/js/**/*.js',
+                        '!web/public/js/vendor/**/*.js'
+                    ]
+                }
+            }
         },
         watch: {
             livereload: {

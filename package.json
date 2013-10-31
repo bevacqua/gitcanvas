@@ -1,6 +1,9 @@
 {
   "name": "gitcanvas",
   "version": "0.0.1",
+  "bin": {
+    "gitcanvas": "bin/gitcanvas"
+  },
   "dependencies": {
     "chalk": "0.3.0",
     "commander": "2.0.0",

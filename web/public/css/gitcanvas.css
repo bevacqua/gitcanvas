@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    margin: 0 130px;
+    margin: 40px 130px;
 }
 
 .gh-ribbon {
@@ -79,8 +79,25 @@ body {
     max-height: 400px;
     overflow: auto;
     padding: 8px 10px;
-    text-shadow: 1px 1px 6px #8cc665;
+    text-shadow: 1px 0px 2px #777;
+    border: 2px solid;
 }
+
+.gh-steps-title {
+    text-align: center;
+    color: #44a340;
+}
+
+.gh-steps {
+    list-style-type: binary;
+    color: #d6e685;
+}
+
+.gh-ct-none  { background-color: #555; }
+.gh-ct-low   { background-color: #d6e685; }
+.gh-ct-mid   { background-color: #8cc665; }
+.gh-ct-high  { background-color: #44a340; }
+.gh-ct-crazy { background-color: #1e6823; }
 
 .gh-sq-day-0   { top:  0px; }
 .gh-sq-day-1   { top: 15px; }
@@ -144,9 +161,3 @@ body {
 .gh-sq-week-51 { left:  660px; }
 .gh-sq-week-52 { left:  675px; }
 .gh-sq-week-53 { left:  690px; }
-
-.gh-ct-none  { background-color: #555; }
-.gh-ct-low   { background-color: #d6e685; }
-.gh-ct-mid   { background-color: #8cc665; }
-.gh-ct-high  { background-color: #44a340; }
-.gh-ct-crazy { background-color: #1e6823; }

@@ -85,6 +85,14 @@
         canvas.reporter.innerHTML = JSON.stringify(result, null, 2);
     }
 
+    function selectElementContents(el) {
+        var range = document.createRange();
+        range.selectNodeContents(el);
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+    }
+
     var gitcanvas = {};
 
     gitcanvas.create = function (input, output) {
@@ -100,11 +108,15 @@
         document.addEventListener('mouseup', function (e) { down = false; });
         input.addEventListener('mousedown', function (e) { down = true; });
         input.addEventListener('mousemove', function (e) {
-            var target = e.target
+            var target = e.target;
             if (target !== lastTarget && down) {
                 toggle(exports, e.target);
                 lastTarget = target;
             }
+        });
+
+        output.addEventListener('click', function () {
+            selectElementContents(output);
         });
 
         exports.reporter = output;
