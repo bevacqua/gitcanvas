@@ -49,3 +49,17 @@
 .sl-lnkdn-btn:hover {
     opacity: 0.95;
 }
+
+.sl-links {
+    margin-top: 10px;
+    color: #555;
+    text-align: center;
+}
+
+.sl-link {
+    color: #1e6823;
+}
+
+.sl-link:hover {
+    color: #d6e685;
+}
