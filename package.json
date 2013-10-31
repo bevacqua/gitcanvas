@@ -1,17 +1,30 @@
 {
   "name": "gitcanvas",
   "version": "0.0.1",
+  "description": "Use your GitHub account's commit history as a canvas. Express the artist in you!",
+  "author": {
+    "name": "Nicolas Bevacqua",
+    "email": "hello@bevacqua.io",
+    "url": "http://bevacqua.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevacqua/gitcanvas"
+  },
+  "bugs": {
+    "url": "https://github.com/bevacqua/gitcanvas/issues"
+  },
   "bin": {
     "gitcanvas": "bin/gitcanvas"
   },
   "dependencies": {
+    "async": "0.2.9",
     "chalk": "0.3.0",
     "commander": "2.0.0",
     "express": "3.4.4",
     "jade": "0.35.0",
     "lodash": "2.2.1",
-    "emoji-random": "0.1.0",
-    "async": "~0.2.9"
+    "emoji-random": "0.1.0"
   },
   "devDependencies": {
     "grunt": "0.4.1",
