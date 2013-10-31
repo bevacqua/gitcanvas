@@ -1,8 +1,14 @@
 # gitcanvas
 
+#### Waste your time like you never did before!
+
 ![gitcanvas.png][1]
 
-Waste your time like you never did before!
+## What is this?
+
+`gitcanvas` is a website and command-line tool that facilitates "drawing" in your contribution summary on GitHub, by creating commits for you in the right places.
+
+Just hop onto the site, _draw something_, commit with the CLI, and done! :rocket:
 
 ![web.png][2]
 
@@ -15,6 +21,8 @@ gitcanvas --help
 gitcanvas --dry-run some.json
 gitcanvas some.json
 ```
+
+It'll generate a bunch of commits _(no pushing around, so you can take it back)_.
 
 ![commits.png][3]
 
