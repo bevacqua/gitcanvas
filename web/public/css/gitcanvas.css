@@ -90,7 +90,15 @@ body {
 
 .gh-steps {
     list-style-type: binary;
+    line-height: 1.4em;
     color: #d6e685;
+}
+
+.gh-code {
+    border-bottom: 1px solid #343434;
+    border-right: 1px solid #343434;
+    background: #555;
+    padding: 2px;
 }
 
 .gh-ct-none  { background-color: #555; }
