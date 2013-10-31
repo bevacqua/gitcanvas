@@ -22,7 +22,9 @@ gitcanvas --dry-run some.json
 gitcanvas some.json
 ```
 
-It'll generate a bunch of commits _(no pushing around, so you can take it back)_.
+![cli.png][4]
+
+Provided that you give it a JSON file generated on the site, `gitcanvas` will generate a bunch of commits for you _(no pushing around, so you can take it back)_.
 
 ![commits.png][3]
 
@@ -41,3 +43,4 @@ Boredom, insomnia, and I just had to find a use for [emoji-random](https://githu
   [1]: https://github.com/bevacqua/gitcanvas/blob/master/dat/gitcanvas.png?raw=true
   [2]: https://github.com/bevacqua/gitcanvas/blob/master/dat/web.png?raw=true
   [3]: https://github.com/bevacqua/gitcanvas/blob/master/dat/commits.png?raw=true
+  [4]: https://github.com/bevacqua/gitcanvas/blob/master/dat/cli.png?raw=true
