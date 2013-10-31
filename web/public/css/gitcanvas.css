@@ -2,28 +2,73 @@ html, body {
     background: #333;
 }
 
-body {
+html {
     width: 960px;
     margin: 0 auto;
+    font-family: 'Helvetica';
+}
+
+body {
+    margin: 0 130px;
+}
+
+.gh-ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+.gh-title {
+    text-align: center;
+    font-size: 5em;
+    color: #8cc665;
+    text-shadow: 1px 0px 6px #1e6823;
+    margin-bottom: 5px;
+}
+
+.gh-tagline {
+    text-align: center;
+    color: #d6e685;
+}
+
+.gh-disclaimer {
+    margin-top: 60px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(#1e,68,23, 0.2);
+    color: #555;
 }
 
 .gh-canvas {
-    margin: 30px;
-    width: 700px;
     position: relative;
+    cursor: default;
+    margin: 15px;
+    width: 730px;
+    height: 115px;
 }
 
 .gh-sq {
+    position: absolute;
+    cursor: pointer;
     width: 12px;
     height: 12px;
     border: 1px solid transparent;
     background-color: #eee;
-    position: absolute;
-    cursor: pointer;
+    box-shadow: 1px 1px 8px rgba(0,0,0,1);
 }
 
 .gh-sq:hover {
     border: 1px solid #555;
+}
+
+.gh-button {
+    color: #333;
+    background-color: #44a340;
+    box-shadow 1px 1px 5px #1e6823;
+    padding: 4px 6px;
+    margin-left: 30px;
+    border: none;
 }
 
 .gh-sq-day-0   { top:  0px; }
@@ -87,6 +132,7 @@ body {
 .gh-sq-week-50 { left:  645px; }
 .gh-sq-week-51 { left:  660px; }
 .gh-sq-week-52 { left:  675px; }
+.gh-sq-week-53 { left:  690px; }
 
 .gh-ct-none  { background-color: #555; }
 .gh-ct-low   { background-color: #d6e685; }

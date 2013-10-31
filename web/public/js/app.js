@@ -1,7 +1,17 @@
 (function (gitcanvas) {
     'use strict';
 
-    var target = document.querySelector('.gh-canvas');
+    var input = document.querySelector('.gh-canvas');
+    var output = document.querySelector('.gh-result');
+    var reset = document.querySelector('.gh-reset');
+    var fill = document.querySelector('.gh-fill');
 
-    gitcanvas.create(target, 'bevacqua');
+    gitcanvas.create(input, output);
+
+    fill.addEventListener('click', function () {
+        gitcanvas.set(input, true);
+    });
+    reset.addEventListener('click', function () {
+        gitcanvas.set(input, false);
+    });
 })(gitcanvas);

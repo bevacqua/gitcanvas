@@ -21,7 +21,20 @@ html
         link(rel='stylesheet', href='/css/normalize.css')
         link(rel='stylesheet', href='/css/gitcanvas.css')
     body
+        a(href='https://github.com/bevacqua/gitcanvas')
+            img.gh-ribbon(src='https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png', alt='')
+
+        h1.gh-title gitcanvas*
+        h2.gh-tagline Waste your time like you never did before!
+        p.gh-disclaimer
+            | *(not a real HTML5&nbsp;
+            code='<canvas>'
+            | &nbsp;element, we checked)
         div.gh-canvas
+        div.gh-buttons
+            button.gh-button.gh-reset Reset
+            button.gh-button.gh-fill Fill!
+        div.gh-result
 
         script(src='/js/moment.min.js')
         script(src='/js/gitcanvas.js')
