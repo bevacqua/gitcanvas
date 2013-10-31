@@ -28,9 +28,15 @@ It'll generate a bunch of commits _(no pushing around, so you can take it back)_
 
 This is mostly harmless, as commits will be empty. No changes are part of the commit. You could always use the `--dry-run` flag to see what the commands would look like.
 
+Take into consideration that other people only see your _public contribution activity_, so using `gitcanvas` on a private repo won't always have the desired effect (showing off a cool, pixelated drawing).
+
 # Hosting the web application
 
 No special treatment, just `node app`, done.
+
+# Why, God, Why?
+
+Boredom, insomnia, and I just had to find a use for [emoji-random](https://github.com/bevacqua/node-emoji-random), which is largely useless too.
 
   [1]: https://github.com/bevacqua/gitcanvas/blob/master/dat/gitcanvas.png?raw=true
   [2]: https://github.com/bevacqua/gitcanvas/blob/master/dat/web.png?raw=true
