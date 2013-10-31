@@ -3,5 +3,5 @@
 
     var target = document.querySelector('.gh-canvas');
 
-    gitcanvas.create(target);
+    gitcanvas.create(target, 'bevacqua');
 })(gitcanvas);

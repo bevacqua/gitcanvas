@@ -7,4 +7,4 @@
 
 /* SITE */
     Ingredients: Sublime Text, iTerm, zsh, git, JavaScript, love
-    Recipe: https://github.com/bevacqua/tmep
+    Recipe: https://github.com/bevacqua/gitcanvas

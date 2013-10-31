@@ -9,6 +9,14 @@ module.exports = function (grunt) {
             },
             lib: ['lib/**/*.js'],
             support: ['Gruntfile.js']
+        },
+        watch: {
+            livereload: {
+                options: { livereload: true },
+                files: [
+                    'web/public/**/*.{css,js}', 'web/views/**/*.jade'
+                ]
+            }
         }
     });
 

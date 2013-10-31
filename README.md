@@ -1,7 +1,7 @@
-# tmep
+# gitcanvas
 
 Install the CLI.
 
 ```shell
-npm install -g tmep
+npm install -g gitcanvas
 ```

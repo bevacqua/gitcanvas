@@ -1,0 +1,95 @@
+html, body {
+    background: #333;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.gh-canvas {
+    margin: 30px;
+    width: 700px;
+    position: relative;
+}
+
+.gh-sq {
+    width: 12px;
+    height: 12px;
+    border: 1px solid transparent;
+    background-color: #eee;
+    position: absolute;
+    cursor: pointer;
+}
+
+.gh-sq:hover {
+    border: 1px solid #555;
+}
+
+.gh-sq-day-0   { top:  0px; }
+.gh-sq-day-1   { top: 15px; }
+.gh-sq-day-2   { top: 30px; }
+.gh-sq-day-3   { top: 45px; }
+.gh-sq-day-4   { top: 60px; }
+.gh-sq-day-5   { top: 75px; }
+.gh-sq-day-6   { top: 90px; }
+
+.gh-sq-week-0  { left:  0px; }
+.gh-sq-week-1  { left:  15px; }
+.gh-sq-week-2  { left:  30px; }
+.gh-sq-week-3  { left:  45px; }
+.gh-sq-week-4  { left:  60px; }
+.gh-sq-week-5  { left:  75px; }
+.gh-sq-week-6  { left:  90px; }
+.gh-sq-week-7  { left:  105px; }
+.gh-sq-week-8  { left:  120px; }
+.gh-sq-week-9  { left:  135px; }
+.gh-sq-week-10 { left:  150px; }
+.gh-sq-week-11 { left:  165px; }
+.gh-sq-week-12 { left:  180px; }
+.gh-sq-week-13 { left:  195px; }
+.gh-sq-week-14 { left:  210px; }
+.gh-sq-week-15 { left:  225px; }
+.gh-sq-week-16 { left:  240px; }
+.gh-sq-week-17 { left:  255px; }
+.gh-sq-week-18 { left:  270px; }
+.gh-sq-week-19 { left:  285px; }
+.gh-sq-week-20 { left:  300px; }
+.gh-sq-week-21 { left:  315px; }
+.gh-sq-week-22 { left:  330px; }
+.gh-sq-week-23 { left:  345px; }
+.gh-sq-week-24 { left:  360px; }
+.gh-sq-week-25 { left:  375px; }
+.gh-sq-week-26 { left:  390px; }
+.gh-sq-week-27 { left:  405px; }
+.gh-sq-week-28 { left:  315px; }
+.gh-sq-week-29 { left:  330px; }
+.gh-sq-week-30 { left:  345px; }
+.gh-sq-week-31 { left:  360px; }
+.gh-sq-week-32 { left:  375px; }
+.gh-sq-week-33 { left:  390px; }
+.gh-sq-week-34 { left:  405px; }
+.gh-sq-week-35 { left:  420px; }
+.gh-sq-week-36 { left:  435px; }
+.gh-sq-week-37 { left:  450px; }
+.gh-sq-week-38 { left:  465px; }
+.gh-sq-week-39 { left:  480px; }
+.gh-sq-week-40 { left:  495px; }
+.gh-sq-week-41 { left:  510px; }
+.gh-sq-week-42 { left:  525px; }
+.gh-sq-week-43 { left:  540px; }
+.gh-sq-week-44 { left:  555px; }
+.gh-sq-week-45 { left:  570px; }
+.gh-sq-week-46 { left:  585px; }
+.gh-sq-week-47 { left:  600px; }
+.gh-sq-week-48 { left:  615px; }
+.gh-sq-week-49 { left:  630px; }
+.gh-sq-week-50 { left:  645px; }
+.gh-sq-week-51 { left:  660px; }
+.gh-sq-week-52 { left:  675px; }
+
+.gh-ct-none  { background-color: #555; }
+.gh-ct-low   { background-color: #d6e685; }
+.gh-ct-mid   { background-color: #8cc665; }
+.gh-ct-high  { background-color: #44a340; }
+.gh-ct-crazy { background-color: #1e6823; }
