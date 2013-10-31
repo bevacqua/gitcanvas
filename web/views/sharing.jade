@@ -1,0 +1,56 @@
+- var url='http%3A//gitcanvas.herokuapp.com', tweet='', gplus='', fbook='', buffr='', hackr='', lnkdn='';
+- var title = 'Edit your GitHub contribution history with gitcanvas';
+- var pic = 'http%3A//gitcanvas.herokuapp.com/img/gitcanvas.png';
+- var via = 'nzgb';
+- var related = 'ponyfoo';
+- var fbapp = '536251723135930';
+- var tags = 'gitcanvas,github';
+- tweet += 'https://platform.twitter.com/widgets/tweet_button.html';
+- tweet += '?via=' + via;
+- tweet += '&related=' + related;
+- tweet += '&url=' + url;
+- tweet += '&text=' + title;
+- tweet += '&hashtags=' + tags;
+- gplus += 'https://plusone.google.com/_/+1/fastbutton';
+- gplus += '?bsv';
+- gplus += '&size=medium';
+- gplus += '&hl=en-US';
+- gplus += '&url=' + url;
+- fbook += 'https://www.facebook.com/plugins/like.php';
+- fbook += '?href=' + url;
+- fbook += '&width=130';
+- fbook += '&height=21';
+- fbook += '&colorscheme=light';
+- fbook += '&layout=button_count';
+- fbook += '&action=recommend';
+- fbook += '&show_faces=false';
+- fbook += '&send=false';
+- fbook += '&appId=' + fbapp;
+- buffr += 'http://widgets.bufferapp.com/button/';
+- buffr += '?url=' + url;
+- buffr += '&text=' + title;
+- buffr += '&picture=' + pic;
+- buffr += '&via=' + via;
+- buffr += '&count=horizontal';
+- buffr += '&placement=button';
+- hackr += 'http://hn-button.herokuapp.com/';
+- hackr += '?title=' + title;
+- hackr += '&url=' + url;
+- hackr += '&count=horizontal';
+- lnkdn += 'http://www.linkedin.com/shareArticle';
+- lnkdn += '?mini=true';
+- lnkdn += '&url=' + url;
+- lnkdn += '&title=' + title;
+
+iframe.sl-tweet(allowtransparency, frameborder='0', scrolling='no', src=tweet)
+iframe.sl-gplus(allowtransparency, frameborder='0', scrolling='no', src=gplus)
+iframe.sl-fb(allowtransparency, frameborder='0', scrolling='no', src=fbook)
+iframe.sl-buffer(allowtransparency, frameborder='0', scrolling='no', src=buffr)
+iframe.sl-hn(allowtransparency, frameborder='0', scrolling='no', src=hackr)
+
+a.sl-lnkdn(href=lnkdn, target='_blank')
+    img.sl-lnkdn-btn(
+        src='http://static03.linkedin.com/img/pic/pic_logo_119x32.png',
+        alt='',
+        title='Share on LinkedIn'
+    )

@@ -1,0 +1,51 @@
+.sl-container {
+    display: none;
+}
+
+.sl-tweet {
+    width: 100px;
+    height: 20px;
+}
+
+.sl-mention {
+    vertical-align: top;
+    width: 110px;
+    height: 20px;
+}
+
+.sl-gplus {
+    width: 90px;
+    height: 28px;
+}
+
+.sl-fb {
+    width: 130px;
+    height: 21px;
+}
+
+.sl-buffer {
+    width: 110px;
+    height: 21px;
+}
+
+.sl-hn {
+    width: 100px;
+    height: 21px;
+}
+
+.sl-lnkdn {
+    display: inline-block;
+
+}
+.sl-lnkdn-btn {
+    height: 18px;
+    padding: 2px 5px;
+    box-sizing: content-box;
+    border-radius: 3px;
+    box-shadow: 1px 1px 6px rgba(#000, 0.3);
+    background-color: #fff;
+}
+
+.sl-lnkdn-btn:hover {
+    opacity: 0.95;
+}

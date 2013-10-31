@@ -20,6 +20,7 @@ html
 
         link(rel='stylesheet', href='/css/normalize.css')
         link(rel='stylesheet', href='/css/gitcanvas.css')
+        link(rel='stylesheet', href='/css/sl.css')
     body
         a(href='https://github.com/bevacqua/gitcanvas')
             img.gh-ribbon(src='https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png', alt='')
@@ -39,10 +40,17 @@ html
             h1.gh-steps-title Become a master of time-wasting!
             ol.gh-steps
                 li Draw something using your extremely overrated drawing skills
+                li Paste the JSON output into a file
                 li
                     | Get the CLI interface! Why, of course.&nbsp;
                     code.gh-code npm install -g gitcanvas
-                li Paste the JSON output into a file
+                li
+                    code.gh-code gitcanvas file.json
+                li
+                    code.gh-code git push
+
+        include sharing
+
 
         script(src='/js/vendor/moment.min.js')
         script(src='/js/gitcanvas.js')
