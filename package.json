@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "commander": "2.0.0"
+    "commander": "2.0.0",
+    "lodash": "~2.2.1"
   },
   "devDependencies": {
     "jshint-stylish": "~0.1.3",
