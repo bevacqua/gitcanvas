@@ -6,12 +6,14 @@
     var reset = document.querySelector('.gh-reset');
     var fill = document.querySelector('.gh-fill');
 
-    gitcanvas.create(input, output);
+    var canvas = gitcanvas.create(input, output);
 
     fill.addEventListener('click', function () {
-        gitcanvas.set(input, true);
+        gitcanvas.set(canvas, true);
     });
     reset.addEventListener('click', function () {
-        gitcanvas.set(input, false);
+        gitcanvas.set(canvas, false);
     });
+
+    canvas.report();
 })(gitcanvas);

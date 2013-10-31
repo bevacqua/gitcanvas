@@ -3,7 +3,7 @@ html, body {
 }
 
 html {
-    width: 960px;
+    width: 980px;
     margin: 0 auto;
     font-family: 'Helvetica';
 }
@@ -36,7 +36,6 @@ body {
     margin-top: 60px;
     text-align: center;
     font-style: italic;
-    text-shadow: 1px 1px 2px rgba(#1e,68,23, 0.2);
     color: #555;
 }
 
@@ -69,6 +68,18 @@ body {
     padding: 4px 6px;
     margin-left: 30px;
     border: none;
+}
+
+.gh-result {
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: #555;
+    color: #d6e685;
+    white-space: pre;
+    max-height: 400px;
+    overflow: auto;
+    padding: 8px 10px;
+    text-shadow: 1px 1px 6px #8cc665;
 }
 
 .gh-sq-day-0   { top:  0px; }
