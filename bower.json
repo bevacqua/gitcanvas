@@ -1,0 +1,7 @@
+{
+  "name": "gitcanvas",
+  "dependencies": {
+    "normalize-css": "2.1.3",
+    "moment": "2.4.0"
+  }
+}
