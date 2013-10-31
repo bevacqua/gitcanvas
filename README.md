@@ -6,7 +6,7 @@
 
 ## What is this?
 
-`gitcanvas` is a website and command-line tool that facilitates "drawing" in your contribution summary on GitHub, by creating commits for you in the right places.
+`gitcanvas` is a service _and_ command-line tool that facilitates "drawing" in your contribution summary on GitHub, by creating commits for you in the right places.
 
 Just hop onto the site, _draw something_, commit with the CLI, and done! :rocket:
 
