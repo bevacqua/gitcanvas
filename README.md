@@ -1,7 +1,7 @@
 # gitcanvas
 
-Install the CLI.
+![gitcanvas.png][1]
 
-```shell
-npm install -g gitcanvas
-```
+Waste your time like you never did before!
+
+  [1]: https://raw.github.com/bevacqua/gitcanvas/master/dat/gitcanvas.png
