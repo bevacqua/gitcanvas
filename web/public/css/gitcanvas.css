@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    margin: 40px 130px;
+    margin: 40px 60px;
 }
 
 .gh-ribbon {
@@ -43,7 +43,7 @@ body {
     position: relative;
     cursor: default;
     margin: 15px;
-    width: 730px;
+    width: 830px;
     height: 115px;
 }
 
@@ -72,7 +72,7 @@ body {
 
 .gh-result {
     margin-top: 40px;
-    margin-left: 30px;
+    margin: 30px;
     background-color: #555;
     color: #d6e685;
     white-space: pre;
@@ -143,29 +143,29 @@ body {
 .gh-sq-week-25 { left:  375px; }
 .gh-sq-week-26 { left:  390px; }
 .gh-sq-week-27 { left:  405px; }
-.gh-sq-week-28 { left:  315px; }
-.gh-sq-week-29 { left:  330px; }
-.gh-sq-week-30 { left:  345px; }
-.gh-sq-week-31 { left:  360px; }
-.gh-sq-week-32 { left:  375px; }
-.gh-sq-week-33 { left:  390px; }
-.gh-sq-week-34 { left:  405px; }
-.gh-sq-week-35 { left:  420px; }
-.gh-sq-week-36 { left:  435px; }
-.gh-sq-week-37 { left:  450px; }
-.gh-sq-week-38 { left:  465px; }
-.gh-sq-week-39 { left:  480px; }
-.gh-sq-week-40 { left:  495px; }
-.gh-sq-week-41 { left:  510px; }
-.gh-sq-week-42 { left:  525px; }
-.gh-sq-week-43 { left:  540px; }
-.gh-sq-week-44 { left:  555px; }
-.gh-sq-week-45 { left:  570px; }
-.gh-sq-week-46 { left:  585px; }
-.gh-sq-week-47 { left:  600px; }
-.gh-sq-week-48 { left:  615px; }
-.gh-sq-week-49 { left:  630px; }
-.gh-sq-week-50 { left:  645px; }
-.gh-sq-week-51 { left:  660px; }
-.gh-sq-week-52 { left:  675px; }
-.gh-sq-week-53 { left:  690px; }
+.gh-sq-week-28 { left:  420px; }
+.gh-sq-week-29 { left:  435px; }
+.gh-sq-week-30 { left:  450px; }
+.gh-sq-week-31 { left:  465px; }
+.gh-sq-week-32 { left:  480px; }
+.gh-sq-week-33 { left:  495px; }
+.gh-sq-week-34 { left:  510px; }
+.gh-sq-week-35 { left:  525px; }
+.gh-sq-week-36 { left:  540px; }
+.gh-sq-week-37 { left:  555px; }
+.gh-sq-week-38 { left:  570px; }
+.gh-sq-week-39 { left:  585px; }
+.gh-sq-week-40 { left:  600px; }
+.gh-sq-week-41 { left:  615px; }
+.gh-sq-week-42 { left:  630px; }
+.gh-sq-week-43 { left:  645px; }
+.gh-sq-week-44 { left:  660px; }
+.gh-sq-week-45 { left:  675px; }
+.gh-sq-week-46 { left:  690px; }
+.gh-sq-week-47 { left:  705px; }
+.gh-sq-week-48 { left:  720px; }
+.gh-sq-week-49 { left:  735px; }
+.gh-sq-week-50 { left:  750px; }
+.gh-sq-week-51 { left:  765px; }
+.gh-sq-week-52 { left:  780px; }
+.gh-sq-week-53 { left:  795px; }
