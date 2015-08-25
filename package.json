@@ -1,6 +1,6 @@
 {
   "name": "gitcanvas",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Use your GitHub account's commit history as a canvas. Express the artist in you!",
   "author": {
     "name": "Nicolas Bevacqua",
